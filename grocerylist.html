@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap" rel="stylesheet"> 
+	<link rel='stylesheet' type='text/css' href='grocerylist.css'>
+	<script src='grocerylist.js' language="javascript"></script>
+	<title></title>
+</head>
+<body>
+	<center>
+		<h1>
+		 My To Do List
+		</h1>
+	<form>
+		<label for='textInput' class='center'>Item Input:</label>
+		<input type='text' name="textInput" id='listinput' placeholder="Type here to specify the new item." class='center'>
+		<br>
+		<button onclick='addItem()' type='button' class='center'>
+			Add Item
+		</button>
+	</form>
+	</center>
+	<div id='todolist2'>
+		<ul id="todolist">
+		
+		</ul>
+	</div>
+</body>
+</html>
